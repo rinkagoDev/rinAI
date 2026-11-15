@@ -1,5 +1,4 @@
 # rinAI
-A hand-rolled C++/OpenGL VRM viewer where a local LLM poses the character's own skeleton, joint by joint - no animation clips, no engine.
 
 rinAI is a from-scratch C++/OpenGL VRM and glTF model viewer where a locally-run LLM controls the character's own skeleton directly, frame by frame. There is no animation system, no canned clips, no scripted behavior tree - the model gets a text description of its own body and its surroundings, and every pose you see on screen is a joint rotation the LLM decided to set.
 
